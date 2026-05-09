@@ -13,7 +13,7 @@ export default function Home() {
         className="absolute inset-0 w-full h-full object-cover -z-10"
       >
         <source
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5_6339156091472977392-z5iRqJugb4DOU0EmkoQmd4aUO7Uvya.MOV"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5_6339156091472977392-7YjVIWbVW8by20daBYtJUjDTEynYuT.MOV"
           type="video/quicktime"
         />
       </video>
@@ -55,11 +55,11 @@ export default function Home() {
             className="w-full h-14 text-base font-medium"
           >
             <Link
-              href="mailto:contact@example.com"
+              href="https://t.me/HARIKKII"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MailIcon className="w-5 h-5 mr-3" />
+              <TelegramIcon className="w-5 h-5 mr-3" />
               Contact Owner
             </Link>
           </Button>
