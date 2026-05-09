@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -23,6 +24,16 @@ export default function Home() {
       <div className="max-w-2xl w-full text-center">
         {/* Logo/Title */}
         <div className="mb-12">
+          <div className="flex justify-center mb-6">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20260510_015127_778-ExxXA2RsT2HfPIaxRxHjTxtzHl8366.jpg"
+              alt="HA RIK KI Logo"
+              width={180}
+              height={180}
+              className="rounded-full"
+              priority
+            />
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">
             Welcome
           </h1>
