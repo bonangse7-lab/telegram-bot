@@ -13,7 +13,7 @@ export default function Home() {
         className="absolute inset-0 w-full h-full object-cover -z-10"
       >
         <source
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5_6339156091472977392-z5iRqJugb4DOU0EmkoQmd4aUO7Uvya.MOV"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5_6339156091472977392-7YjVIWbVW8by20daBYtJUjDTEynYuT.MOV"
           type="video/quicktime"
         />
       </video>
