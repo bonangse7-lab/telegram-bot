@@ -68,63 +68,65 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Buttons with enhanced styling */}
-        <div className="flex flex-col gap-4 max-w-sm mx-auto">
-          <Button
-            asChild
-            size="lg"
-            className="w-full h-14 text-base font-medium bg-gradient-to-r from-[#0088cc] to-[#00a8e8] hover:from-[#0077b5] hover:to-[#0088cc] text-white border-0 shadow-lg shadow-blue-500/20 transition-all duration-300 hover:shadow-blue-500/40 hover:scale-[1.02]"
+        {/* Buttons with premium glass-morphism styling */}
+        <div className="flex flex-col gap-5 max-w-sm mx-auto">
+          {/* Telegram Channel - Premium Blue Glass */}
+          <Link
+            href="https://t.me/harikki_Channel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative w-full"
           >
-            <Link
-              href="https://t.me/harikki_Channel"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <TelegramIcon className="w-5 h-5 mr-3" />
-              Telegram Channel
-            </Link>
-          </Button>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-600 rounded-2xl blur opacity-60 group-hover:opacity-100 transition duration-500 group-hover:duration-200 animate-pulse" />
+            <div className="relative flex items-center justify-center gap-3 h-16 px-6 bg-gradient-to-r from-[#0088cc] to-[#0099dd] rounded-2xl text-white font-semibold text-lg shadow-2xl transition-all duration-300 group-hover:scale-[1.02] group-active:scale-[0.98]">
+              <TelegramIcon className="w-6 h-6" />
+              <span>Telegram Channel</span>
+              <ArrowIcon className="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+            </div>
+          </Link>
 
-          <Button
-            asChild
-            size="lg"
-            className="w-full h-14 text-base font-medium bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white border-0 shadow-lg shadow-orange-500/20 transition-all duration-300 hover:shadow-orange-500/40 hover:scale-[1.02]"
+          {/* Contact Owner - Premium Orange/Gold Glass */}
+          <Link
+            href="https://t.me/HARIKKII"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative w-full"
           >
-            <Link
-              href="https://t.me/HARIKKII"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <TelegramIcon className="w-5 h-5 mr-3" />
-              Contact Owner
-            </Link>
-          </Button>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-500 via-amber-500 to-yellow-500 rounded-2xl blur opacity-60 group-hover:opacity-100 transition duration-500 group-hover:duration-200 animate-pulse" />
+            <div className="relative flex items-center justify-center gap-3 h-16 px-6 bg-gradient-to-r from-orange-500 to-amber-500 rounded-2xl text-white font-semibold text-lg shadow-2xl transition-all duration-300 group-hover:scale-[1.02] group-active:scale-[0.98]">
+              <UserIcon className="w-6 h-6" />
+              <span>Contact Owner</span>
+              <ArrowIcon className="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+            </div>
+          </Link>
 
-          <Button
-            asChild
-            size="lg"
-            className="w-full h-14 text-base font-medium bg-white/5 hover:bg-white/10 text-white border border-white/10 hover:border-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-[1.02]"
+          {/* Website - Premium Glass Effect */}
+          <Link
+            href="https://authgo.pro/rikkistore"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative w-full"
           >
-            <Link
-              href="https://authgo.pro/rikkistore"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GlobeIcon className="w-5 h-5 mr-3" />
-              Website
-            </Link>
-          </Button>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-500 group-hover:duration-200" />
+            <div className="relative flex items-center justify-center gap-3 h-16 px-6 bg-[#1a1a2e]/90 backdrop-blur-xl rounded-2xl text-white font-semibold text-lg shadow-2xl border border-white/10 transition-all duration-300 group-hover:scale-[1.02] group-hover:bg-[#1a1a2e] group-active:scale-[0.98]">
+              <GlobeIcon className="w-6 h-6" />
+              <span>Website</span>
+              <ArrowIcon className="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+            </div>
+          </Link>
 
-          <Button
-            asChild
-            size="lg"
-            className="w-full h-14 text-base font-medium bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white border-0 shadow-lg shadow-green-500/20 transition-all duration-300 hover:shadow-green-500/40 hover:scale-[1.02]"
+          {/* Phone Number - Premium Green Glass */}
+          <Link
+            href="tel:0974215127"
+            className="group relative w-full"
           >
-            <Link href="tel:0974215127">
-              <PhoneIcon className="w-5 h-5 mr-3" />
-              Phone Number
-            </Link>
-          </Button>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 rounded-2xl blur opacity-60 group-hover:opacity-100 transition duration-500 group-hover:duration-200 animate-pulse" />
+            <div className="relative flex items-center justify-center gap-3 h-16 px-6 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl text-white font-semibold text-lg shadow-2xl transition-all duration-300 group-hover:scale-[1.02] group-active:scale-[0.98]">
+              <PhoneIcon className="w-6 h-6" />
+              <span>Phone Number</span>
+              <ArrowIcon className="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+            </div>
+          </Link>
         </div>
 
         {/* Footer */}
@@ -181,6 +183,42 @@ function PhoneIcon({ className }: { className?: string }) {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+    </svg>
+  )
+}
+
+function ArrowIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M5 12h14" />
+      <path d="m12 5 7 7-7 7" />
+    </svg>
+  )
+}
+
+function UserIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+      <circle cx="12" cy="7" r="4" />
     </svg>
   )
 }
